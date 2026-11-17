@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rayan Adlrdard | Front-end Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header" id="home">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo" aria-label="Home"><img src="images/logo.svg" alt="" /></a>
+
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#recommendations">Recommendations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <span class="shape shape-circle-y" aria-hidden="true"></span>
+    <span class="shape shape-diamond-b" aria-hidden="true"></span>
+    <span class="shape shape-circle-g2" aria-hidden="true"></span>
+
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>I’m Rayan Adlrdard<br /><span class="accent">Front-end</span> Developer</h1>
+        <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Et, Volutpat Feugiat Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.</p>
+        <a href="#contact" class="btn btn-hire">HIRE ME <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <img src="images/hero-art.svg" alt="" />
+        <span class="shape shape-circle-g"></span>
+        <span class="shape shape-diamond-y"></span>
+        <span class="shape shape-ring-y"></span>
+        <span class="shape shape-tri-r"></span>
+      </div>
+    </div>
+  </section>
+
+  <main class="grey-bg">
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia<br class="br-d" /> Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
+        </div>
+
+        <div class="projects-grid">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-reco" id="recommendations">
+      <div class="container">
+        <div class="section-head">
+          <h2>Recommendations</h2>
+          <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet<br class="br-d" /> Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
+        </div>
+      </div>
+
+      <div class="carousel" aria-roledescription="carousel" aria-label="Recommendations">
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+          </div>
+        </div>
+        <div class="carousel-dots" role="tablist" aria-label="Choose slide"></div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-form-col">
+          <h3 class="col-title">Leave ME Your Info</h3>
+          <form class="contact-form card" novalidate>
+            <label>Your Full Name ( Required)
+              <input type="text" name="name" required />
+            </label>
+            <label>Your Email ( Required)
+              <input type="email" name="email" required />
+            </label>
+            <label>Subject
+              <input type="text" name="subject" />
+            </label>
+            <label>Your Message
+              <textarea name="message" rows="6"></textarea>
+            </label>
+            <button type="submit" class="btn btn-sm">SEND MESSAGE</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="contact-info-col">
+          <h3 class="col-title">Contact Information</h3>
+
+          <div class="info-card card">
+            <span class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M9 3 3 5.5v15L9 18l6 2.5 6-2.5v-15L15 6 9 3zm0 2.4 4.5 1.9v10.3L9 14.7V5.4zM5 6.9l2-.8v9.6l-2 .8V6.9zm14 .2v9.6l-2 .8V7.9l2-.8z"/></svg>
+            </span>
+            <dl>
+              <div><dt>Country:</dt><dd>Bangladesh</dd></div>
+              <div><dt>City:</dt><dd>Dhaka</dd></div>
+              <div><dt>Streat:</dt><dd>35 Vhatara, Badda</dd></div>
+            </dl>
+          </div>
+
+          <div class="info-card card">
+            <span class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 0 1 1 1v.4l-10 6.2L2 6.4V6a1 1 0 0 1 1-1zm-1 3.7 10 6.2 10-6.2V18a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8.7z"/></svg>
+            </span>
+            <dl>
+              <div><dt>Email:</dt><dd>Youremail@Gmail.Com</dd></div>
+              <div><dt>Skype:</dt><dd>@Yourusername</dd></div>
+              <div><dt>Telegram:</dt><dd>@Yourusername</dd></div>
+            </dl>
+          </div>
+
+          <div class="info-card card">
+            <span class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 2h8a1.5 1.5 0 0 1 1.5 1.5v17A1.5 1.5 0 0 1 16 22H8a1.5 1.5 0 0 1-1.5-1.5v-17A1.5 1.5 0 0 1 8 2z"/></svg>
+            </span>
+            <dl>
+              <div><dt>Support Services:</dt><dd>15369</dd></div>
+              <div><dt>Office:</dt><dd>+58 (021)356 587 235</dd></div>
+              <div><dt>Personal:</dt><dd>+58 (021)356 587 235</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container brands" aria-label="Clients">
+      <div class="brand">
+        <svg viewBox="0 0 80 64" width="80" height="64" role="img" aria-label="3 eerrate">
+          <text x="40" y="38" text-anchor="middle" font-size="42" font-weight="900" fill="#111" font-family="Inter, Arial, sans-serif">3</text>
+          <text x="40" y="54" text-anchor="middle" font-size="11" font-weight="800" fill="#111" font-family="Inter, Arial, sans-serif">3 eerrate</text>
+          <text x="40" y="61" text-anchor="middle" font-size="3.6" fill="#555" font-family="Inter, Arial, sans-serif">THE FIRST AWARD</text>
+        </svg>
+      </div>
+      <div class="brand">
+        <svg viewBox="0 0 80 64" width="80" height="64" role="img" aria-label="Gl">
+          <path d="M44 20.5A18 18 0 1 0 47 36H30" fill="none" stroke="#F5B800" stroke-width="6" stroke-linecap="butt"/>
+          <path d="M56 8v32a12 12 0 0 0 12 12h6" fill="none" stroke="#F5B800" stroke-width="6" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="brand">
+        <svg viewBox="0 0 80 72" width="80" height="72" role="img" aria-label="Genra te">
+          <circle cx="40" cy="25" r="22" fill="#1D2A5C"/>
+          <circle cx="40" cy="25" r="18" fill="none" stroke="#fff" stroke-width="1.5" opacity=".35"/>
+          <text x="40" y="34" text-anchor="middle" font-size="28" font-weight="800" fill="#fff" font-family="Inter, Arial, sans-serif">B</text>
+          <text x="40" y="61" text-anchor="middle" font-size="11" font-weight="800" fill="#111" font-family="Inter, Arial, sans-serif">Genra te</text>
+          <text x="40" y="68" text-anchor="middle" font-size="3.6" fill="#555" font-family="Inter, Arial, sans-serif">TEXT HERE</text>
+        </svg>
+      </div>
+      <div class="brand">
+        <svg viewBox="0 0 80 64" width="80" height="64" role="img" aria-label="Generate">
+          <defs><linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7B500"/><stop offset="1" stop-color="#E8402A"/></linearGradient></defs>
+          <text x="40" y="38" text-anchor="middle" font-size="42" font-weight="800" fill="url(#g3)" font-family="Inter, Arial, sans-serif">3</text>
+          <text x="40" y="52" text-anchor="middle" font-size="8" font-weight="800" fill="#111" font-family="Inter, Arial, sans-serif">Generate</text>
+          <rect x="24" y="55" width="32" height=".6" fill="#555"/>
+          <text x="40" y="60" text-anchor="middle" font-size="3.2" fill="#555" font-family="Inter, Arial, sans-serif">TEXT HERE</text>
+        </svg>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="#home" class="logo logo-lg" aria-label="Home"><img src="images/logo.svg" alt="" /></a>
+
+        <div class="footer-grid">
+          <div class="footer-ratings">
+            <div class="rating">
+              <span class="rating-badge b1"><i></i><em>compass<small>Sourcing Ads</small></em></span>
+              <small>4.5/5 Rating On Lorem</small>
+            </div>
+            <div class="rating">
+              <span class="rating-badge b2"><i>n</i></span>
+              <small>9/10 Rating On Ipsum</small>
+            </div>
+            <div class="rating">
+              <span class="rating-badge b3"><i></i><em>Ebixon Dolan</em></span>
+              <small>4.5/5 Rating On Dorol</small>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Portfolio</h4>
+            <ul>
+              <li><a href="#projects">Frontend Development</a></li>
+              <li><a href="#projects">Backend Development</a></li>
+              <li><a href="#projects">Website Design</a></li>
+              <li><a href="#projects">Machine Learning</a></li>
+              <li><a href="#projects">Problem Solving &amp; DSA</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <ul class="social">
+              <li><a href="#" class="linkedin"><span class="li-text">Linked</span><span class="li-in">in</span></a></li>
+              <li><a href="#" class="instagram"><span class="ig-icon"><span></span></span><span class="ig-text">Instagram</span></a></li>
+              <li><a href="#" class="facebook"><span class="fb-icon">f</span><span class="fb-text">facebook</span></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="copyright"><span class="copy-icon" aria-hidden="true">C</span> 2024 Copyright, All Right Reserved</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="45 58 860 354" role="img" aria-label="Logo">
+  <defs>
+    <clipPath id="lensL"><circle cx="222" cy="235" r="165"/></clipPath>
+    <clipPath id="lensR"><circle cx="727" cy="235" r="165"/></clipPath>
+  </defs>
+  <g fill="#2B2B2B">
+    <circle cx="222" cy="235" r="160" fill="none" stroke="#2B2B2B" stroke-width="30"/>
+    <circle cx="727" cy="235" r="160" fill="none" stroke="#2B2B2B" stroke-width="30"/>
+    <circle cx="140" cy="340" r="185" clip-path="url(#lensL)"/>
+    <circle cx="809" cy="340" r="185" clip-path="url(#lensR)"/>
+  </g>
+  <path d="M392 214 Q477 166 562 214" fill="none" stroke="#2B2B2B" stroke-width="7" stroke-linecap="round"/>
+</svg>
